@@ -97,7 +97,7 @@
     width: 325px;
     height: 400px;
     padding: 30px;
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 .card:nth-child(1) {
@@ -120,18 +120,18 @@
     color: #ffffff;
 }
 
-.card h2{
+.card h2 {
     font-size: 60px;
 }
 
-.card h4{
-    font-family: Roboto,sans-serif;
+.card h4 {
+    font-family: Roboto, sans-serif;
     margin-bottom: 0;
     margin-top: 20px;
 }
 
-.card p{
-    font-family: 'Open Sans',sans-serif;
+.card p {
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 0;
     margin-top: 20px;
 }
@@ -142,4 +142,90 @@
     margin-bottom: 00px;
     height: 64px;
     width: 64px;
+}
+
+.gallery {
+    border: 1 solid red;
+    background: #f1c50e;
+}
+
+.background {
+    height: 745px;
+    background: #292d33;
+    width: calc(((100% - 1140px) / 2) + 896px);
+    margin: 0 0 0 auto;
+}
+
+.pictures {
+    position: relative;
+    width: 1140px;
+    margin: -650px auto 0;
+    padding: 0 0 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px 30px;
+    grid-template-areas:
+    "uno dos ."
+    "tres cuatro cinco"
+    "seis siete ocho";
+}
+
+.image {
+    /* border: 1px solid red; */
+    background-position: 50% 50%;
+    min-height: 404px;
+    background-size: cover;
+    background-clip: padding-box;
+}
+
+.image:nth-child(1) {
+    background-image: url(/img/1.jpg);
+    grid-area: uno;
+}
+.image:nth-child(2) {
+    background-image: url(/img/2.jpg);
+    grid-column: 2 / 3;
+}
+.image:nth-child(3) {
+    background-image: url(/img/3.jpg);
+    grid-area: tres;
+}
+.image:nth-child(4) {
+    background-image: url(/img/4.jpg);
+    grid-area: cuatro;
+}
+.image:nth-child(5) {
+    background-image: url(/img/5.jpg);
+    grid-area: cinco;
+}
+.image-2 {
+    background-image: url(/img/6.jpg);
+    grid-area: siete;
+}
+
+.ultimo{
+    /* border: 1px solid red; */
+    grid-area: ocho;
+    background-image: url(/img/1q.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+}
+
+.text-gallery{
+    grid-area: seis;
+    color: #111111;
+    padding: 30px 20px;
+}
+
+.text-gallery h3{
+    font-family: Roboto,sans-serif;
+    font-size: 36px;
+}
+
+.text-gallery p{
+    font-weight: 700;
+    line-height: 2;
+    margin: 30px 0 0;
+    font-family: 'Open Sans', sans-serif;
 }
