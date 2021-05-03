@@ -206,7 +206,7 @@
 .ultimo{
     /* border: 1px solid red; */
     grid-area: ocho;
-    background-image: url(/img/1q.png);
+    background-image: url(./img/1q.png);
     background-repeat: no-repeat;
     background-position: 100% 0%;
 }
