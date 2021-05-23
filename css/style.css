@@ -179,23 +179,23 @@
 }
 
 .image:nth-child(1) {
-    background-image: url(/img/1.jpg);
+    background-image: url(./img/1.jpg);
     grid-area: uno;
 }
 .image:nth-child(2) {
-    background-image: url(/img/2.jpg);
+    background-image: url(./img/2.jpg);
     grid-column: 2 / 3;
 }
 .image:nth-child(3) {
-    background-image: url(/img/3.jpg);
+    background-image: url(./img/3.jpg);
     grid-area: tres;
 }
 .image:nth-child(4) {
-    background-image: url(/img/4.jpg);
+    background-image: url(./img/4.jpg);
     grid-area: cuatro;
 }
 .image:nth-child(5) {
-    background-image: url(/img/5.jpg);
+    background-image: url(./img/5.jpg);
     grid-area: cinco;
 }
 .image-2 {
