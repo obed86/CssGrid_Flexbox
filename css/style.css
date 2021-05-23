@@ -199,7 +199,7 @@
     grid-area: cinco;
 }
 .image-2 {
-    background-image: url(/img/6.jpg);
+    background-image: url(img/6.jpg);
     grid-area: siete;
 }
 
